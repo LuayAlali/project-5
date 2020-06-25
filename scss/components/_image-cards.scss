@@ -1,0 +1,28 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+	
+
+.container{
+display:  flex;
+flex-wrap:  wrap;
+justify-content: space-around;
+
+}
+
+a{
+	display: flex;
+    flex: 1  per-line(4);
+    margin-left: $gutter;
+	margin-right: $gutter;
+	margin-bottom: 5px;
+	
+}
+
+
+	
+.lb-data .lb-caption{
+	font-family: $font-family-1;
+	font-size: $font-size-1;
+}

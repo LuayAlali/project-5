@@ -1,0 +1,4 @@
+$('#search').hideseek({
+	attribute: 'title'
+	
+});
