@@ -14,9 +14,9 @@ justify-content: space-around;
 a{
 	display: flex;
     flex: 1  per-line(4);
-    margin-left: $gutter;
+    margin-bottom: 5px;
+	margin-left: $gutter;
 	margin-right: $gutter;
-	margin-bottom: 5px;
 	
 }
 

@@ -8,7 +8,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
-/* line 14, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 14, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -21,7 +21,7 @@ html {
 /**
  * Remove the margin in all browsers.
  */
-/* line 26, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 26, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 body {
   margin: 0;
 }
@@ -29,7 +29,7 @@ body {
 /**
  * Render the `main` element consistently in IE.
  */
-/* line 34, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 34, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 main {
   display: block;
 }
@@ -38,7 +38,7 @@ main {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
-/* line 43, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 43, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
@@ -50,7 +50,7 @@ h1 {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
-/* line 56, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 56, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -64,7 +64,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 67, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 67, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -77,7 +77,7 @@ pre {
 /**
  * Remove the gray background on active links in IE 10.
  */
-/* line 79, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 79, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 a {
   background-color: transparent;
 }
@@ -86,7 +86,7 @@ a {
  * 1. Remove the bottom border in Chrome 57-
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
-/* line 88, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 88, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -99,7 +99,7 @@ abbr[title] {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
-/* line 98, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 98, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 b,
 strong {
   font-weight: bolder;
@@ -109,7 +109,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
-/* line 108, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 108, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 code,
 kbd,
 samp {
@@ -122,7 +122,7 @@ samp {
 /**
  * Add the correct font size in all browsers.
  */
-/* line 119, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 119, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 small {
   font-size: 80%;
 }
@@ -131,7 +131,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
-/* line 128, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 128, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -140,12 +140,12 @@ sup {
   vertical-align: baseline;
 }
 
-/* line 136, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 136, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 sub {
   bottom: -0.25em;
 }
 
-/* line 140, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 140, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 sup {
   top: -0.5em;
 }
@@ -155,7 +155,7 @@ sup {
 /**
  * Remove the border on images inside links in IE 10.
  */
-/* line 151, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 151, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 img {
   border-style: none;
 }
@@ -166,7 +166,7 @@ img {
  * 1. Change the font styles in all browsers.
  * 2. Remove the margin in Firefox and Safari.
  */
-/* line 163, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 163, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 button,
 input,
 optgroup,
@@ -186,7 +186,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
-/* line 179, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 179, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -197,7 +197,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
-/* line 189, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 189, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -207,7 +207,7 @@ select {
 /**
  * Correct the inability to style clickable types in iOS and Safari.
  */
-/* line 198, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 198, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 button,
 [type="button"],
 [type="reset"],
@@ -218,7 +218,7 @@ button,
 /**
  * Remove the inner border and padding in Firefox.
  */
-/* line 209, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 209, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -230,7 +230,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
-/* line 221, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 221, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -241,7 +241,7 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
-/* line 232, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 232, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
@@ -252,7 +252,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
-/* line 243, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 243, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -271,7 +271,7 @@ legend {
 /**
  * Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
-/* line 256, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 256, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 progress {
   vertical-align: baseline;
 }
@@ -279,7 +279,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE 10+.
  */
-/* line 264, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 264, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 textarea {
   overflow: auto;
 }
@@ -288,7 +288,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10.
  * 2. Remove the padding in IE 10.
  */
-/* line 273, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 273, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -300,7 +300,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
-/* line 283, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 283, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
@@ -310,7 +310,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
-/* line 293, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 293, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -321,7 +321,7 @@ textarea {
 /**
  * Remove the inner padding in Chrome and Safari on macOS.
  */
-/* line 302, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 302, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
@@ -330,7 +330,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
-/* line 311, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 311, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -343,7 +343,7 @@ textarea {
 /*
  * Add the correct display in Edge, IE 10+, and Firefox.
  */
-/* line 323, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 323, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 details {
   display: block;
 }
@@ -351,7 +351,7 @@ details {
 /*
  * Add the correct display in all browsers.
  */
-/* line 331, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 331, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 summary {
   display: list-item;
 }
@@ -361,7 +361,7 @@ summary {
 /**
  * Add the correct display in IE 10+.
  */
-/* line 342, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 342, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 template {
   display: none;
 }
@@ -369,50 +369,55 @@ template {
 /**
  * Add the correct display in IE 10.
  */
-/* line 350, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_normalize.scss */
+/* line 350, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_normalize.scss */
 [hidden] {
   display: none;
 }
 
 /* CSS Document */
-/* line 3, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/base/_box.scss */
+/* line 3, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/base/_box.scss */
 * {
   box-sizing: border-box;
 }
 
 /* CSS Document */
 /* CSS Document */
-/* line 2, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/components/_search-bar.scss */
+/* line 2, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/components/_search-bar.scss */
 .searchfield {
   display: flex;
   justify-content: center;
   margin-bottom: 20px;
 }
 
-/* line 8, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/components/_search-bar.scss */
+/* line 8, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/components/_search-bar.scss */
 .searchfield #search {
   margin-top: 20px;
+  margin-bottom: 20px;
   width: 40%;
+  height: 30px;
+  border-style: solid;
+  border-color: rgba(142, 142, 142, 0.5);
+  border-radius: 5px;
 }
 
 /* CSS Document */
-/* line 7, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/components/_image-cards.scss */
+/* line 7, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/components/_image-cards.scss */
 .container {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
 
-/* line 14, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/components/_image-cards.scss */
+/* line 14, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/components/_image-cards.scss */
 a {
   display: flex;
   flex: 1 -11.92308%;
+  margin-bottom: 5px;
   margin-left: 60px;
   margin-right: 60px;
-  margin-bottom: 5px;
 }
 
-/* line 25, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/scss/components/_image-cards.scss */
+/* line 25, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/components/_image-cards.scss */
 .lb-data .lb-caption {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
