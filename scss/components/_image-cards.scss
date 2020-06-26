@@ -8,15 +8,17 @@
 display:  flex;
 flex-wrap:  wrap;
 justify-content: space-around;
+max-width:  1200px;
+margin: auto;	
 
 }
 
 a{
 	display: flex;
-    flex: 1  per-line(4);
+    flex: 1  ;
     margin-bottom: 5px;
-	margin-left: $gutter;
-	margin-right: $gutter;
+	margin-left: 40px;
+	margin-right: 40px;
 	
 }
 

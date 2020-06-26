@@ -406,18 +406,20 @@ template {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  max-width: 1200px;
+  margin: auto;
 }
 
-/* line 14, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/components/_image-cards.scss */
+/* line 16, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/components/_image-cards.scss */
 a {
   display: flex;
-  flex: 1 -11.92308%;
+  flex: 1;
   margin-bottom: 5px;
-  margin-left: 60px;
-  margin-right: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
-/* line 25, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/components/_image-cards.scss */
+/* line 27, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/components/_image-cards.scss */
 .lb-data .lb-caption {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
