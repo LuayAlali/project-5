@@ -1,2 +1,9 @@
 /* CSS Document */
 
+.fancybox-image, .fancybox-spaceball{
+	@media(max-width: $brk-s){
+		width: 90%;
+		margin: 0 5%;	
+	}
+	 
+}

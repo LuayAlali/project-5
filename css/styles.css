@@ -444,5 +444,12 @@ a {
 }
 
 /* CSS Document */
+@media (max-width: 569px) {
+  /* line 3, ../../../../../Documents/Tech-degree/project-5/Photo-Gallery/project-5/scss/components/_fancybox.scss */
+  .fancybox-image, .fancybox-spaceball {
+    width: 90%;
+    margin: 0 5%;
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
