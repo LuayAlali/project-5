@@ -4,19 +4,33 @@
 	justify-content: center;
 	margin-bottom: 20px;
 	
+	
 
 #search{
 	margin-top: 20px;
 	margin-bottom: 20px;
 	width: 32%;
 	height: 30px;
-	border-style: solid;
+	border-top-style: none;
+	border-bottom-style: solid;
+    border-right: none;
+    border-left: none;
 	border-color: rgba(142,142,142, .50);
+	box-shadow: 2px 2px 2px #d3d5e0;
 	border-radius: 5px;	
+	color: #6676a6;
 	@media(max-width: $brk-s){
 	width: 50%;	
 	height: 35px;	
 	}
 	
 	}
+	
 	}
+	#search:focus {
+			color: black;
+		
+
+	}
+
+	//color when clicked #ed8374
