@@ -3,21 +3,74 @@
 /*css Layout*/
 body{
 	background-color: black ;
+	
+}
+/* Grid Container */
+.container{
+	/* overflow: hidden; */
+	display: grid;
+	background-color:whitesmoke;
+	max-width: 100vw;
+	height: 100vh;
+	grid-template-columns: 1fr;
+	grid-template-rows: 5% 1fr 5%;
+    /* grid-template-areas: 
+		"header header",
+		"sideContact .",
+		"sideContact ."
+		; */
+		overflow: hidden;
 }
 
-.container{
+.body{
 	display: grid;
-	background-color: aqua;
-	width: 100%;
-	height: 80vh;
-	grid-template-columns:  1fr 1fr 1fr;
-	grid-template-rows: 1fr 1fr 1fr;
-	grid-template-areas: 
-		"grid1 grid1 grid1"
-		"grid1 grid1 grid1"
-		"grid1 grid1 grid1"
-		;
+	grid-template-columns:  1fr 3fr;
+	overflow: hidden;
 }
+.content{
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: repeat(autofill, 1fr);
+		align-items: center;
+		justify-items: center;
+		grid-gap: 15px 0;
+	 	overflow-y: scroll;
+		padding: 20px;
+	   
+}
+/* Left double rowed images  grid container */
+/*  
+.header{
+	grid-area: header;
+}
+.sideContact{
+grid-area: sideContact;
+
+}
+.grid1{
+	display: none;
+	grid-template-rows: repeat(autofit, 1fr );
+	grid-gap:15px;
+	justify-content: center;
+	align-content: center;
+}
+.grid2{
+	display: none;
+	grid-template-rows: repeat(autofit, 1fr );
+	grid-gap:15px;
+	justify-content: center;
+	align-content: center;
+}
+.grid3{
+	display: none;
+	grid-template-rows: repeat(autofit, 1fr );
+	grid-gap:15px;
+	justify-content: center;
+	align-content: center;
+
+}  */
+
+
 /*
 a[data-fancybox]{
 	display: grid;
