@@ -129,9 +129,9 @@ template { display: none; }
 /* CSS Document */
 .container { display: flex; flex-wrap: wrap; justify-content: center; max-width: 1200px; margin: auto; }
 
-a { display: flex; flex: 1; width: 200px; max-width: 200px; margin-left: 40px; margin-right: 40px; margin-bottom: 40px; transition: box-shadow 200ms ease-in-out 100ms; }
+a { display: flex; flex: 1; width: 200px; max-width: 200px; margin-left: 40px; margin-right: 40px; margin-bottom: 40px; transition: all 200ms ease-in-out 100ms; }
 
-a[data-fancybox]:hover { opacity: .8; box-shadow: 3px 3px 5px #242a8f; }
+a[data-fancybox]:hover { opacity: .9; box-shadow: 3px 3px 5px #242a8f; }
 
 .lb-data .lb-caption { font-family: "Roboto Condensed", sans-serif; font-size: 20px; }
 
